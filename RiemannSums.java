@@ -508,13 +508,13 @@ public class RiemannSums extends Applet implements MouseListener, MouseMotionLis
 		chooseFunction.setVisible(false);
 		add(chooseFunction);
 
-		lowerBoundScroll = new Scrollbar(Scrollbar.HORIZONTAL, -1000, 100, -1000, 1005);
+		lowerBoundScroll = new Scrollbar(Scrollbar.HORIZONTAL, -1000, 10, -1000, 1010);
 		lowerBoundScroll.setBackground(new Color(219,112,147));
 		lowerBoundScroll.setFocusable(false);
 		lowerBoundScroll.addAdjustmentListener(this);
 		add(lowerBoundScroll);
 
-		upperBoundScroll = new Scrollbar(Scrollbar.HORIZONTAL, 1000, 100, -1000, 1005);
+		upperBoundScroll = new Scrollbar(Scrollbar.HORIZONTAL, 1000, 10, -1000, 1010);
 		upperBoundScroll.setBackground(new Color(219,112,147));
 		upperBoundScroll.setFocusable(false);
 		upperBoundScroll.addAdjustmentListener(this);
